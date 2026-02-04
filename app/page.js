@@ -450,7 +450,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* ============================================ */}
+  {/* ============================================ */}
       {/* CONTACT SECTION */}
       {/* ============================================ */}
       <section id="contact" className="py-20 px-6 bg-gray-900/50">
@@ -459,7 +459,7 @@ export default function Portfolio() {
             <p className="text-blue-400 font-mono text-sm mb-2 tracking-wide">GET IN TOUCH</p>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Let's Connect</h2>
             <p className="text-gray-400 max-w-2xl">
-              Available for consulting engagements, advisory roles, and strategic partnerships. 
+              Available for consulting engagements, advisory roles, and strategic partnerships.
               APAC timezone friendly.
             </p>
           </div>
@@ -485,20 +485,18 @@ export default function Portfolio() {
                   <div className="text-gray-400 text-sm">Connect with me</div>
                 </div>
               </a>
-              
-           
-        <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50">
-  <h3 className="text-lg font-semibold text-white mb-4">Send a Message</h3>
-  <div 
-    className="hs-form-frame" 
-    data-region="na2" 
-    data-form-id="1430b69a-1e56-44f6-92f3-ec784461e08b" 
-    data-portal-id="245081453"
-  ></div>
-</div>
-          
-                  
-                  </div>
+            </div>
+            
+            <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50">
+              <h3 className="text-lg font-semibold text-white mb-4">Send a Message</h3>
+              <div 
+                className="hs-form-frame" 
+                data-region="na2" 
+                data-form-id="1430b69a-1e56-44f6-92f3-ec784461e08b" 
+                data-portal-id="245081453"
+              ></div>
+            </div>
+          </div>
         </div>
       </section>
 
