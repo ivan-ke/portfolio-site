@@ -187,7 +187,7 @@ export default function Portfolio() {
         { value: '-22%', label: 'operational cost reduction' },
         { value: '16', label: 'APAC markets standardised' }
       ],
-      description: 'Led the Campaign, Tracking & Reporting pillar of Project Advance, a region-wide business transformation for a global media agency. Designed and implemented standardised end-to-end campaign workflows (planning, execution, tracking, reconciliation, and reporting), replacing fragmented market-level processes with a scalable regional operating model. Partnered with Regional Process Owners and local market SMEs to localise L5 processes, embed workflow automation (Wrike/Salesforce), and improve governance, data quality, and delivery consistency across 16 APAC markets.',
+      description: 'Led the Campaign, Tracking & Reporting pillar of Project Advance, an APAC-wide business transformation for a global media agency. Designed and implemented standardised end-to-end campaign workflows, replacing fragmented market-level processes with a scalable regional operating model. Partnered with Regional Process Owners and local market SMEs to localise L5 processes, improve governance, data quality and delivery consistency across 16 APAC markets.',
       tags: [
         'Business Transformation',
         'APAC',
