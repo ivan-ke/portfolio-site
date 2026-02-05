@@ -450,7 +450,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* ============================================ */}
+{/* ============================================ */}
       {/* CONTACT SECTION */}
       {/* ============================================ */}
       <section id="contact" className="py-20 px-6 bg-gray-900/50">
@@ -459,60 +459,66 @@ export default function Portfolio() {
             <p className="text-blue-400 font-mono text-sm mb-2 tracking-wide">GET IN TOUCH</p>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Let's Connect</h2>
             <p className="text-gray-400 max-w-2xl">
-              Available for consulting engagements, advisory roles, and strategic partnerships. 
+              Available for consulting engagements, advisory roles, and strategic partnerships.
               APAC timezone friendly.
             </p>
           </div>
-          
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl">
-            <div className="space-y-4">
-              <a href="mailto:hello@example.com" className="flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg border border-gray-700/50 hover-card">
-                <div className="p-3 bg-blue-500/20 rounded-lg">
-                  <Mail size={24} className="text-blue-400" />
-                </div>
-                <div>
-                  <div className="text-white font-medium">Email</div>
-                  <div className="text-gray-400 text-sm">hello@example.com</div>
-                </div>
-              </a>
-              
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg border border-gray-700/50 hover-card">
-                <div className="p-3 bg-blue-500/20 rounded-lg">
-                  <Linkedin size={24} className="text-blue-400" />
-                </div>
-                <div>
-                  <div className="text-white font-medium">LinkedIn</div>
-                  <div className="text-gray-400 text-sm">Connect with me</div>
-                </div>
-              </a>
-              
-              <a href="tel:+6512345678" className="flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg border border-gray-700/50 hover-card">
-                <div className="p-3 bg-blue-500/20 rounded-lg">
-                  <Phone size={24} className="text-blue-400" />
-                </div>
-                <div>
-                  <div className="text-white font-medium">Phone</div>
-                  <div className="text-gray-400 text-sm">+65 1234 5678</div>
-                </div>
-              </a>
-            </div>
-            
-            <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50">
-              <h3 className="text-lg font-semibold text-white mb-4">Book a Call</h3>
-              <p className="text-gray-400 mb-6">
-                Schedule a 15-minute intro call to discuss your needs and explore how we might work together.
-              </p>
-              <a 
-                href="#" 
-                className="block w-full bg-blue-600 hover:bg-blue-500 text-white px-6 py-4 rounded-lg font-medium text-center transition-colors"
-              >
-                <Calendar className="inline-block mr-2" size={20} />
-                Schedule on Calendly
-              </a>
-              <p className="text-gray-500 text-sm mt-4 text-center">
-                Typically respond within 4 hours
-              </p>
-            </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <a href="mailto:hello@example.com" className="flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg border border-gray-700/50 hover-card group">
+              <div className="p-3 bg-blue-500/20 rounded-lg">
+                <Mail size={24} className="text-blue-400" />
+              </div>
+              <div className="flex-1">
+                <div className="text-white font-medium group-hover:text-blue-400 transition-colors">Email</div>
+                <div className="text-gray-400 text-sm">hello@example.com</div>
+              </div>
+              <ArrowRight size={20} className="text-gray-600 group-hover:text-blue-400 transition-colors" />
+            </a>
+
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg border border-gray-700/50 hover-card group">
+              <div className="p-3 bg-blue-500/20 rounded-lg">
+                <Linkedin size={24} className="text-blue-400" />
+              </div>
+              <div className="flex-1">
+                <div className="text-white font-medium group-hover:text-blue-400 transition-colors">LinkedIn</div>
+                <div className="text-gray-400 text-sm">Connect with me</div>
+              </div>
+              <ArrowRight size={20} className="text-gray-600 group-hover:text-blue-400 transition-colors" />
+            </a>
+
+            <a href="tel:+6512345678" className="flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg border border-gray-700/50 hover-card group">
+              <div className="p-3 bg-blue-500/20 rounded-lg">
+                <Phone size={24} className="text-blue-400" />
+              </div>
+              <div className="flex-1">
+                <div className="text-white font-medium group-hover:text-blue-400 transition-colors">Phone</div>
+                <div className="text-gray-400 text-sm">+65 1234 5678</div>
+              </div>
+              <ArrowRight size={20} className="text-gray-600 group-hover:text-blue-400 transition-colors" />
+            </a>
+
+            <a href="https://calendly.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg border border-gray-700/50 hover-card group">
+              <div className="p-3 bg-blue-500/20 rounded-lg">
+                <Calendar size={24} className="text-blue-400" />
+              </div>
+              <div className="flex-1">
+                <div className="text-white font-medium group-hover:text-blue-400 transition-colors">Book a Call</div>
+                <div className="text-gray-400 text-sm">Schedule a 15-min intro</div>
+              </div>
+              <ArrowRight size={20} className="text-gray-600 group-hover:text-blue-400 transition-colors" />
+            </a>
+
+            <a href="YOUR_HUBSPOT_FORM_URL" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg border border-gray-700/50 hover-card group">
+              <div className="p-3 bg-blue-500/20 rounded-lg">
+                <ExternalLink size={24} className="text-blue-400" />
+              </div>
+              <div className="flex-1">
+                <div className="text-white font-medium group-hover:text-blue-400 transition-colors">Send a Message</div>
+                <div className="text-gray-400 text-sm">Send a Message</div>
+              </div>
+              <ArrowRight size={20} className="text-gray-600 group-hover:text-blue-400 transition-colors" />
+            </a>
           </div>
         </div>
       </section>
