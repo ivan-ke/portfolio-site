@@ -119,7 +119,7 @@ export default function Portfolio() {
   const services = [
     {
       title: 'Digital Transformation Strategy',
-      timeline: '4-6 weeks',
+      timeline: '8-16 weeks',
       description: 'End-to-end digital transformation roadmap aligned with business objectives, covering technology, process, and people dimensions.',
       deliverables: [
         'Current state assessment & gap analysis',
@@ -127,7 +127,7 @@ export default function Portfolio() {
         'Implementation roadmap with milestones',
         'Change management framework'
       ],
-      successMetric: { value: '+40%', label: 'efficiency gains' }
+      successMetric: { value: '+30%', label: 'efficiency gains' }
     },
     {
       title: 'Data Strategy & Analytics',
@@ -143,7 +143,7 @@ export default function Portfolio() {
     },
     {
       title: 'MarTech Stack Optimization',
-      timeline: '2-4 weeks',
+      timeline: '4-6 weeks',
       description: 'Audit, streamline, and optimize your marketing technology stack for maximum ROI and operational efficiency.',
       deliverables: [
         'Tech stack audit & rationalization',
@@ -164,24 +164,42 @@ export default function Portfolio() {
         'ROI projection model'
       ],
       successMetric: { value: '3x', label: 'productivity boost' }
+    },
+    {
+      title: 'Digital and Social Paid Media Implementation Advisory',
+      timeline: '4-8 weeks',
+      description: 'End-to-end guidance on launching and optimizing paid media campaigns across search, social, and programmatic channels. From strategy to execution, ensuring your media spend delivers measurable ROI.',
+      deliverables: [
+        'Channel strategy & budget allocation framework',
+        'Campaign structure and audience targeting playbook',
+        'Tracking & attribution setup (GA4, pixels, UTMs)',
+        'Performance dashboard with KPI benchmarks'
+      ],
+      successMetric: { value: '+35% ROAS improvement', label: 'avg. improvement' }
     }
   ]
-
   const projects = [
     {
-      title: 'APAC E-commerce Transformation',
-      timeline: '2023',
+      title: 'APAC Campaign, Tracking & Reporting Transformation',
+      timeline: '2021–2022',
       metrics: [
-        { value: '+45%', label: 'revenue growth' },
-        { value: '-22%', label: 'CAC reduction' },
-        { value: '6', label: 'markets launched' }
+        { value: '+35%', label: 'campaign-led revenue uplift' },
+        { value: '-22%', label: 'operational cost reduction' },
+        { value: '16', label: 'APAC markets standardised' }
       ],
-      description: 'Led end-to-end digital transformation for a Fortune 500 CPG brand across 6 APAC markets, unifying fragmented e-commerce operations into a scalable platform.',
-      tags: ['E-commerce', 'APAC', 'Digital Transformation', 'Shopify']
+      description: 'Led the Campaign, Tracking & Reporting pillar of Project Advance, a region-wide business transformation for a global media agency. Designed and implemented standardised end-to-end campaign workflows (planning, execution, tracking, reconciliation, and reporting), replacing fragmented market-level processes with a scalable regional operating model. Partnered with Regional Process Owners and local market SMEs to localise L5 processes, embed workflow automation (Wrike/Salesforce), and improve governance, data quality, and delivery consistency across 16 APAC markets.',
+      tags: [
+        'Business Transformation',
+        'APAC',
+        'Campaign Operations',
+        'Reporting & Analytics',
+        'Process Design',
+        'Automation'
+      ]
     },
     {
       title: 'Data-Driven Media Optimization',
-      timeline: '2022-2023',
+      timeline: '2016-2018',
       metrics: [
         { value: '-18%', label: 'media waste' },
         { value: '+32%', label: 'ROAS improvement' },
@@ -459,13 +477,13 @@ export default function Portfolio() {
             <p className="text-blue-400 font-mono text-sm mb-2 tracking-wide">GET IN TOUCH</p>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Let's Connect</h2>
             <p className="text-gray-400 max-w-2xl">
-              Available for consulting engagements, advisory roles, and strategic partnerships.
+              Available for consulting engagements, implementation and advisory roles, and strategic partnerships.
               APAC timezone friendly.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <a href="mailto:hello@example.com" className="flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg border border-gray-700/50 hover-card group">
+            <a href="mailto:me@ivanke.sg" className="flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg border border-gray-700/50 hover-card group">
               <div className="p-3 bg-blue-500/20 rounded-lg">
                 <Mail size={24} className="text-blue-400" />
               </div>
@@ -476,7 +494,7 @@ export default function Portfolio() {
               <ArrowRight size={20} className="text-gray-600 group-hover:text-blue-400 transition-colors" />
             </a>
 
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg border border-gray-700/50 hover-card group">
+            <a href="https://www.linkedin.com/in/ivanke/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg border border-gray-700/50 hover-card group">
               <div className="p-3 bg-blue-500/20 rounded-lg">
                 <Linkedin size={24} className="text-blue-400" />
               </div>
@@ -487,18 +505,7 @@ export default function Portfolio() {
               <ArrowRight size={20} className="text-gray-600 group-hover:text-blue-400 transition-colors" />
             </a>
 
-            <a href="tel:+6512345678" className="flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg border border-gray-700/50 hover-card group">
-              <div className="p-3 bg-blue-500/20 rounded-lg">
-                <Phone size={24} className="text-blue-400" />
-              </div>
-              <div className="flex-1">
-                <div className="text-white font-medium group-hover:text-blue-400 transition-colors">Phone</div>
-                <div className="text-gray-400 text-sm">+65 1234 5678</div>
-              </div>
-              <ArrowRight size={20} className="text-gray-600 group-hover:text-blue-400 transition-colors" />
-            </a>
-
-            <a href="https://calendly.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg border border-gray-700/50 hover-card group">
+            <a href="https://calendly.com/me-ivanke/30min" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg border border-gray-700/50 hover-card group">
               <div className="p-3 bg-blue-500/20 rounded-lg">
                 <Calendar size={24} className="text-blue-400" />
               </div>
@@ -509,7 +516,7 @@ export default function Portfolio() {
               <ArrowRight size={20} className="text-gray-600 group-hover:text-blue-400 transition-colors" />
             </a>
 
-            <a href="YOUR_HUBSPOT_FORM_URL" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg border border-gray-700/50 hover-card group">
+            <a href="https://41wy25.share-na2.hsforms.com/2FDC2mh5WRPaS8-x4RGHgiw" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg border border-gray-700/50 hover-card group">
               <div className="p-3 bg-blue-500/20 rounded-lg">
                 <ExternalLink size={24} className="text-blue-400" />
               </div>
