@@ -2,7 +2,7 @@ import './globals.css'
 import Script from 'next/script'
 
 export const metadata = {
-  title: 'Ivan | Digital Transformation Leader',
+  title: 'Ivan Ke | Digital Transformation Leader',
   description: 'Strategic digital leader specializing in APAC markets, data-driven transformation, and AI-powered solutions.',
 }
 
